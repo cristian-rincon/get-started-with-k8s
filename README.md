@@ -5,6 +5,7 @@ Repository to test and learn more about k8s
 - [get-started-w-k8s](#get-started-w-k8s)
   - [Install Kubectl](#install-kubectl)
   - [Creating a GKE cluster](#creating-a-gke-cluster)
+  - [Glossary](#glossary)
 
 ## Install Kubectl
 
@@ -19,7 +20,7 @@ gcloud beta container \
 --project "pruebas-301501" clusters create "cluster-1" \
 --zone "us-central1-a" \
 --no-enable-basic-auth \
---cluster-version "1.21.6-gke.1503" \
+--cluster-version "1.21.6-gke.1503" \****
 --release-channel "regular" \
 --machine-type "g1-small" \
 --image-type "COS_CONTAINERD" \
@@ -46,3 +47,10 @@ gcloud beta container \
 --node-locations "us-central1-a"
 
 ```
+
+## Glossary
+
+- Namespace: Logical grouping of resources.
+- Pod: A container that runs on a node.
+- Node: A machine that hosts pods.
+- Deployment: A group of pods that are created and maintained together.
