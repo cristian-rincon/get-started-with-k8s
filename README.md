@@ -6,6 +6,7 @@ Repository to test and learn more about k8s
   - [Install Kubectl](#install-kubectl)
   - [Creating a GKE cluster](#creating-a-gke-cluster)
   - [Glossary](#glossary)
+    - [Networking](#networking)
 
 ## Install Kubectl
 
@@ -54,3 +55,9 @@ gcloud beta container \
 - Pod: A container that runs on a node.
 - Node: A machine that hosts pods.
 - Deployment: A group of pods that are created and maintained together.
+
+### Networking
+
+- Cluster IP: A unique IP address assigned to a cluster.
+- Nodeport: A port that is exposed on a node.
+- Load balancer: A service that is exposed to the internet.
