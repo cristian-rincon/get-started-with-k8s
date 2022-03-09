@@ -1,8 +1,8 @@
-# get-started-w-k8s
+# get-started-with-k8s
 
 Repository to test and learn more about k8s
 
-- [get-started-w-k8s](#get-started-w-k8s)
+- [get-started-with-k8s](#get-started-with-k8s)
   - [Install Kubectl](#install-kubectl)
   - [Creating a GKE cluster](#creating-a-gke-cluster)
   - [Glossary](#glossary)
